@@ -1,0 +1,140 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.site-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.website-navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.main-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.latest, .popular {
+    margin-bottom: 40px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: var(--accent-color);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.submit {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.meme-code {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-left: 4px solid var(--accent-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+.money {
+    text-decoration: line-through;
+}
+
+pre {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-left: 4px solid var(--accent-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    text-align: center;
+}
+
+code {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px 4px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+}
+
+
+
