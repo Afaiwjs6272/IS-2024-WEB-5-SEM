@@ -8,5 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sweetalert2" level="application" />
+    <orderEntry type="library" name="toastify-js" level="application" />
+    <orderEntry type="library" name="swiper" level="application" />
   </component>
 </module>

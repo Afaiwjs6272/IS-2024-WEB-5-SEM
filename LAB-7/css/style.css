@@ -225,5 +225,144 @@ footer {
     background-color: var(--section6-bg);
 }
 
+.nav a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.generated-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.generated-table th, .generated-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.generated-table th {
+    background-color: #f4f4f4;
+}
+
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.meme-item {
+    margin: 20px 0;
+}
+
+.comment-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.comment-item p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.comment-item small {
+    color: #777;
+}
+
+/* Стили для модального окна SweetAlert2 */
+.swal2-popup {
+    background-color: #f0f0f0 !important; /* Цвет фона модального окна */
+}
+
+.swal2-title {
+    color: #333333; /* Цвет заголовка */
+}
+
+.swal2-input, .swal2-textarea {
+    background-color: #e1e1e1; /* Цвет фона для полей ввода */
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Кнопка добавления мема */
+.btn-submit-meme {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit-meme:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для уведомлений Toastify */
+#toast-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+/* Настройка цвета уведомлений */
+.toastify {
+    background-color: #4CAF50; /* Зеленый для успеха */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.swiper-container {
+    width: 80%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    border-radius: 8px;
+}
+
+#submit-meme-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit-meme-btn:hover {
+    background-color: #0056b3;
+}
+
+
 
 
